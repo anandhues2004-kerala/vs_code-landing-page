@@ -37,15 +37,15 @@
             <nav class=" bg-black text-white px-10 py-3 flex justify-between fixed w-full z-50 ">
                 <ul class="flex gap-5 py-2 text-xl font-poppins ">
                    <button class="bg-black px-2  flex gap-2 text-2xl font-bold"><img src="./imgi_90_default.png" alt="" class="h-[30px]">Visual Studio Code</button>
-                   <li class="hidden lg:flex">Docs</li>    
-                   <li class="hidden lg:flex" >Update</li>
-                   <li class="hidden lg:flex">Blog</li>
-                   <li class="hidden lg:flex">API</li>
-                   <li class="hidden lg:flex">Extentions</li>
-                   <li class="hidden lg:flex">MCP</li>
-                   <LI class="hidden lg:flex">FAQ</LI>
-                   <li class="hidden lg:flex">Lern</li>
-                   <li class="hidden lg:flex">Events</li>
+                   <li class="hidden lg:flex cursor-pointer hover:underline">Docs</li>    
+                   <li class="hidden lg:flex cursor-pointer hover:underline" >Update</li>
+                   <li class="hidden lg:flex cursor-pointer hover:underline">Blog</li>
+                   <li class="hidden lg:flex cursor-pointer hover:underline">API</li>
+                   <li class="hidden lg:flex cursor-pointer hover:underline">Extentions</li>
+                   <li class="hidden lg:flex cursor-pointer hover:underline">MCP</li>
+                   <LI class="hidden lg:flex cursor-pointer hover:underline">FAQ</LI>
+                   <li class="hidden lg:flex cursor-pointer hover:underline">Lern</li>
+                   <li class="hidden lg:flex cursor-pointer hover:underline">Events</li>
                 </ul>
                 <div class="flex items-center gap-6 font-poppins">
                     <div class="hidden xl:flex container border border-white w-max  px-2 flex items-center gap-2 rounded-md py-2"><img src="./imgi_1_search-dark.svg" alt="" class=""> serch
@@ -56,7 +56,7 @@
                       <img src="./imgi_1_search-dark.svg" alt="" class="">
                     </span>
                 <img src="./imgi_3_theme-light.svg" alt="">
-                <button class="hidden lg:flex bg-blue-500 rounded-md px-5 py-2">Download</button>
+                <button class="hidden lg:flex bg-blue-500 rounded-md px-5 py-2 hover:bg-red-600">Download</button>
                  <span class="lg:hidden"><i class="fa-solid fa-bars" style="color: rgb(236, 236, 233);"></i></span>   
                 
 
@@ -64,9 +64,9 @@
                
             </nav>
             <!-- section 1 -->
-             <section class="container bg-blue-500 flex justify-center items-center mt-10 flex flex-wrap font-poppins ">
-                <h1>Explore Agentic Development</h1>
-                <p class="hover:underline text">-Join a GitHub Copilot Dev Day near you!</p> 
+             <section class="container bg-blue-500 flex justify-center items-center mt-10 flex flex-wrap z-20">
+                <h1 class="font-poppins">Explore Agentic Development</h1>
+                <p class="hover:underline text font-foont">-Join a GitHub Copilot Dev Day near you!</p> 
              </section>
              <!-- section 02 -->
               <section class="flex justify-center items-center flex flex-col  mt-10 gap-6 font-poppins">
@@ -74,17 +74,17 @@
                 <h1 class="text-blue-200 lg:text-3xl md:text-2xl text-xl">Your home for multi-agent development </h1>
                 </section>
                 <!-- section 2 -->
-                <section class="flex justify-center mt-10 font-poppins">
-                    <div class="container bg-stone-700 flex flex-col py-3 w-max  px-10 gap-2 rounded-md items-center ">
+                <section class="flex justify-center mt-10 ">
+                    <div class="container bg-stone-800 flex flex-col py-3 w-max  px-10 gap-2 rounded-md items-center ">
                     <button class="bg-white px-2 py-2 flex items-center gap-2   rounded-md text-xl font-bold w-max"><img src="./imgi_50_default.svg" alt="">Download for windows</button>
                     
-                    <p class="text-white">Web, Insiders edition, or other platforms</p>
-                    <p class="text-white">By using VS Code, you agree to its license and privacy statement.</p>
+                    <p class="text-white font-foont">Web, Insiders edition, or other platforms</p>
+                    <p class="text-white font-foont">By using VS Code, you agree to its license and privacy statement.</p>
                     </div>
                 </section>
                 <!-- section 03 -->
                  <section class="flex justify-center items-center mt-40  ">
-                  <div class="container bg-[url(./imgi_91_hero-background.webp)] relative lg:w-[900px] w-[700px] lg:h-[500px] md:h-[350px] h-[300px]">
+                  <div class="container bg-[url(./imgi_91_hero-background.webp)] relative lg:w-[900px] w-[700px] lg:h-[500px] md:h-[350px] h-[300px] border-4 border-blue-600 rounded-md">
                     <img src="./imgi_28_swimlane-customized-light.png" alt="" class="lg:w-[800px] w-[600px] absolute bottom-5 lg:left-10 md:left-10 md:top-3 left-2 z-10">
                   </div>
 
@@ -96,14 +96,16 @@
                       <h1 class="text-2xl text-white font-bold font-poppins">Agents that build for you</h1>
                       <p class="text-blue-200 font-foont">Hand off tasks to AI agents that autonomously plan, make code changes, run commands, and iterate until the job is done.</p>
                       <p class="text-blue-200 font-foont">For example, assign a CLI-based agent to triage and fix bugs in the background, interact with another agent to implement a feature using live validation in the integrated browser, and delegate a homepage redesign to a cloud agent that opens a pull request for your team to review.</p>
-                      <p class="text-blue-500 font-bold">Get started with agents</p>
+                      <p class="text-blue-400 font-foont cursor-pointer hover:underline">Get started with agents</p>
                     </div>
-                    <div class="relative lg:w-1/2">
-                      <img src="./imgi_91_hero-background.webp" alt="w-auto  z-0">
-                       <img src="./imgi_28_swimlane-customized-light.png" alt="" class="w-auto   absolute bottom-5 left-0 top-10 z-20 ">
+                    
+                       <div class="container bg-[url(/imgi_91_hero-background.webp)] relative xl:w-[750px]  md:h-[400px]   h-[250px] rounded-md border-4 border-blue-600">
+                        <img src="./imgi_28_swimlane-customized-light.png" alt="" class="xl:w-[600px] lg:w-[550px] md:w-[500px] w-[350px] absolute bottom-5 xl:left-10 lg:left-6 md:left-10 left-5 top-10 z-20  ">
+
+                       </div>
                   
 
-                    </div>
+                    
                    
                     
                   
@@ -114,18 +116,18 @@
                   </section>
                   <!-- section05 -->
                    <section class="md:flex justify-between gap-5  mt-10 lg:px-20 px-10  ">
-                    <div class="container bg-stone-600  flex flex-col  px-10 py-5 rounded-md gap-5">
-                      <h1 class="text-white font-bold">Any agent, any model</h1>
+                    <div class="container bg-stone-800  flex flex-col  px-10 py-5 rounded-md gap-5">
+                      <h1 class="text-white font-bold font-poppins">Any agent, any model</h1>
                       <p class="text-blue-200 font-foont">Use the agent harness that fits your workflow. Run agents locally or in the cloud, with Copilot or third-party providers like Claude and OpenAI.</p>
                       <p class="text-blue-200 font-foont">Choose from dozens of models across providers, from fast completion models to advanced reasoning models. Or bring your own key to use any model from any provider.</p>
                     </div>
-                    <div class="container bg-stone-600 flex flex-col  px-10 py-5 rounded-md gap-5 md:mt-0 mt-10  ">
-                      <h1 class="text-white font-bold">All your sessions, one view</h1>
+                    <div class="container bg-stone-800 flex flex-col  px-10 py-5 rounded-md gap-5 md:mt-0 mt-10  ">
+                      <h1 class="text-white font-bold font-poppins">All your sessions, one view</h1>
                       <p class="text-blue-200 font-foont">Stay productive while multiple agents work on tasks in parallel. Track all your agent sessions from a single view, regardless of where they run.</p>
                       <p class="text-blue-200 font-foont">Quickly filter and monitor sessions, or dive into an individual agent interaction, without switching to a different tool or terminal.</p>
                     </div>
-                    <div class="container bg-stone-600 flex flex-col   px-10 py-5 rounded-md gap-5 md:mt-0 mt-10">
-                      <h1 class="text-white font-bold">Your rules, your agents</h1>
+                    <div class="container bg-stone-800 flex flex-col   px-10 py-5 rounded-md gap-5 md:mt-0 mt-10">
+                      <h1 class="text-white font-bold font-poppins">Your rules, your agents</h1>
                       <p class="text-blue-200 font-foont">Ensure agents follow your practices and team workflows. Define custom instructions, add agent skills, or build custom agents tailored to your project.</p>
                       <p class="text-blue-200 font-foont">Connect to external tools and services with MCP servers, or install agent plugins or extensions to expand the agent's capabilities.</p>
                     </div>
@@ -135,10 +137,10 @@
 
                    <section class="container bg-[url('./imgi_92_copilot-free-banner-bg-dark.webp')] mt-10 rounded-md">
                       <div class="flex justify-between text-white py-5 lg:px-10 px-5">
-                        <h1 class=" text-3xl font-bold ">Start building with AI agents for free</h1>
+                        <h1 class=" text-3xl font-bold font-poppins">Start building with AI agents for free</h1>
                         <span class="flex flex-col gap-5">
-                           <p font-foont>No trial. No credit card required. Just your GitHub account.</p>
-                           <button class="bg-red-600 rounded-md w-max px-5 py-2">Try Free</button>
+                           <p class="font-foont" >No trial. No credit card required. Just your GitHub account.</p>
+                           <button class="bg-red-600 rounded-md w-max px-5 py-2 hover:bg-blue-400">Try Free</button>
 
                         </span>
                       </div>
@@ -147,103 +149,103 @@
                    <!-- section 07 -->
                     <section class=" lg:flex justify-between gap-6 lg:px-20 px-10 py-5 ">
                       <div class="flex flex-col gap-5 mt-20 md:w-1/2">
-                        <h1 class="text-3xl font-bold text-white">A world-class code editor at its core</h1>
+                        <h1 class="text-3xl font-bold text-white font-poppins">A world-class code editor at its core</h1>
                         <p class="text-blue-200 font-foont">VS Code has been the editor of choice for millions of developers for over a decade. AI-powered inline suggestions, intelligent completions, and a rich editing experience make it just as powerful when you're writing code yourself.</p>
                         <p class="text-blue-200 font-foont">Seamlessly switch between working with agents and hands-on coding, all within the same editor.</p>
-                        <p class="text-blue-500">Get started with VS Code</p>
+                        <p class="text-blue-400 font-foont cursor-pointer hover:underline">Get started with VS Code</p>
                       </div>
-                      <div class="relative z-0 overflow-hidden rounded-md  lg:w-1/2 ">
-                    <img src="./imgi_91_hero-background.webp" alt="" class="w-full z-0 ">
-                    <img src="./imgi_28_swimlane-customized-light.png" alt="" class="w-full absolute bottom-5 left-0 z-50 ">
-                  
-                    
-                  </div>
+                      
+                       <div class="container bg-[url(/imgi_91_hero-background.webp)] relative xl:w-[750px]  md:h-[400px]   h-[250px] rounded-md border-4 border-blue-600  ">
+                        <img src="./imgi_28_swimlane-customized-light.png" alt="" class="xl:w-[600px] lg:w-[550px] md:w-[500px] w-[350px] absolute bottom-5 xl:left-10 lg:left-6 md:left-10 left-5 top-10 z-20  ">
+
+                       </div>
+                 
                     </section>
                     <!-- section 06 -->
                      <section class="lg:px-20 px-10 py-10">  
                       <div class="md:flex justify-between gap-20 ">
                       <div class="xl:w-2/4 mt-20 flex flex-col gap-10 md:w-1/2 ">
-                        <h1 class="text-3xl text-white font-bold">Code with extensions</h1>
-                        <p class="text-white font-foont">Extend your agents with tools from extensions and Model Context Protocol servers. Or,<span class="text-blue-500">build your own extension to power your team's unique scenarios.</span> </p>
+                        <h1 class="text-3xl text-white font-bold font-poppins">Code with extensions</h1>
+                        <p class="text-white font-foont">Extend your agents with tools from extensions and Model Context Protocol servers. Or,<span class="text-blue-200 cursor-pointer hover:underline">build your own extension to power your team's unique scenarios.</span> </p>
                       </div>
                       <div class="flex gap-10 flex flex-wrap md:mt-0 mt-10  ">
-                        <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                        <div class="container bg-stone-800 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_6_extension-python.png" alt=""  class="h-[50px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
                             <h1 class="text-white font-bold">python</h1>
                             <p >Add rich language <br> support for python</p>
                             </span>
 
                         </div>
-                         <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                         <div class="container bg-stone-800 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_7_extension-stripe.png" alt="" class="h-[50px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
-                            <h1 class="text-white font-bold">Stripe</h1>
-                            <p>Build,test and use <br>Stripe inside your editor</p>
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
+                            <h1 class="text-white font-bold font-poppins">Stripe</h1>
+                            <p class="font-foont">Build,test and use <br>Stripe inside your editor</p>
                             </span>
 
                         </div>  
-                         <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                         <div class="container bg-stone-800 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_8_extension-c.png" alt="" class="h-[50px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
-                            <h1 class="text-white font-bold">C/C ++</h1>
-                            <p>Add rich language <br> support for C/C++</p>
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
+                            <h1 class="text-white font-bold font-poppins">C/C ++</h1>
+                            <p class="font-foont">Add rich language <br> support for C/C++</p>
                             </span>
 
                         </div>  
-                         <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                         <div class="container bg-stone-800 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_9_extension-jupyter.png" alt=""  class="h-[50px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
-                            <h1 class="text-white font-bold">jupitor</h1>
-                            <p> language  support for <br> jupitor Notebooks</p>
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
+                            <h1 class="text-white font-bold font-poppins">jupitor</h1>
+                            <p class="font-foont"> language  support for <br> jupitor Notebooks</p>
                             </span>
 
                         </div>  
-                         <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                         <div class="container bg-stone-800 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_10_extension-gitlens.png" alt=""  class="h-[50px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
-                            <h1 class="text-white font-bold">GitLens</h1>
-                            <p>Supercharge your git <br> experience </p>
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
+                            <h1 class="text-white font-bold font-poppins">GitLens</h1>
+                            <p class="font-foont">Supercharge your git <br> experience </p>
                             </span>
 
                         </div>  
-                         <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                         <div class="container bg-stone-800 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_11_extension-cs-dev-kit.png" alt="" class="h-[50px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
-                            <h1 class="text-white font-bold">C# Dev Kit</h1>
-                            <p>power full tools for <br>your c# environment</p>
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
+                            <h1 class="text-white font-bold font-poppins">C# Dev Kit</h1>
+                            <p class="font-foont">power full tools for <br>your c# environment</p>
                             </span>
 
                         </div>  
-                        <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                        <div class="container bg-stone-800 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_12_extension-mongodb.png" alt="" class="h-[50px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
-                            <h1 class="text-white font-bold">Mongo DB</h1>
-                            <p>Extention for<br>@Mongo DB agent</p>
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
+                            <h1 class="text-white font-bold font-poppins">Mongo DB</h1>
+                            <p class="font-foont">Extention for<br>@Mongo DB agent</p>
                             </span>
 
                         </div>  
                         
-                        <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                        <div class="container bg-stone-800 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_13_extension-azure.png" alt="" class="h-[50px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
-                            <h1 class="text-white font-bold">GitHub Copilot <br> for Azure</h1>
-                            <p>Streamline the process <br> of developing for Azure</p>
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
+                            <h1 class="text-white font-bold font-poppins">GitHub Copilot <br> for Azure</h1>
+                            <p class="font-foont">Streamline the process <br> of developing for Azure</p>
                             </span>
 
                         </div>  
-                        <div class="container bg-stone-600 flex justify-between w-max gap-2 rounded-md px-5 py-2">
+                        <div class="container bg-stone-8  00 flex justify-between w-max gap-2 rounded-md px-5 py-2">
                             <img src="./imgi_14_extension-remote.png" alt="" class="h-[45px]">
-                            <span class="flex flex-col gap-2 text-blue-500 hidden lg:flex">
-                            <h1 class="text-white font-bold">Remote Development</h1>
-                            <p>Open folder in a  <br>container on a Remote  <br> machine</p>
+                            <span class="flex flex-col gap-2 text-blue-200 hidden lg:flex">
+                            <h1 class="text-white font-bold font-poppins">Remote Development</h1>
+                            <p class="font-foont">Open folder in a  <br>container on a Remote  <br> machine</p>
                             </span>
 
                         </div>  
                       </div>
                       </div>
                       <span class="flex justify-center items-center mt-10">
-                        <p class="text-white">View 80k+ extensions in the <span class="text-blue-500">Extension Marketplace</span> </p>
+                        <p class="text-white font-foont">View 80k+ extensions in the <span class="text-blue-400 cursor-pointer hover:underline">Extension Marketplace</span> </p>
                       </span>
 
 
@@ -251,8 +253,8 @@
                      <!-- section 07 -->
                       <section class="md:flex justify-between lg:px-20 px-10 py-10">
                         <div class="md:w-1/4 flex flex-col gap-10 mt-20">
-                          <h1 class="text-3xl font-bold text-white">Code in any language</h1>
-                          <p class="text-blue-300">VS Code supports almost every major programming language. Several ship in the box, like JavaScript, TypeScript, CSS, and HTML, but extensions for others can be found in the VS Code Marketplace.</p>
+                          <h1 class="text-3xl font-bold text-white font-poppins">Code in any language</h1>
+                          <p class="text-blue-200 font-foont">VS Code supports almost every major programming language. Several ship in the box, like JavaScript, TypeScript, CSS, and HTML, but extensions for others can be found in the VS Code Marketplace.</p>
                         </div>
                         <div class="flex justify-between gap-10 text-white flex flex-wrap md:w-1/2">
                           <span class="flex gap-2 items-center"><img src="./imgi_15_language-js.png" alt="" class="h-[50px]">JavaScript</span>
@@ -277,11 +279,11 @@
                       <!-- section 08 -->
                        <section class="md:flex justify-between gap-10 lg:px-20 px-10 py-10">
                         <div class="flex flex-col gap-6  py-10">
-                          <h1 class="text-white font-bold text-3xl">Fully customizable</h1>
-                          <p class="text-blue-300">Customize your VS Code UI and layout so that it fits your coding style.</p>
-                          <p class="text-blue-300"> <span class="text-blue-500 font-bold">Color themes</span> let you modify the colors in VS Code's user interface to suit your preferences and work environment.</p>
-                          <p class="text-blue-300"> <span class="text-blue-500 font-bold">Settings Sync</span> enables you to share your user settings across your VS Code instances with the Settings Sync feature.</p>
-                          <p class="text-blue-300"><span class="text-blue-500 font-bold">Profiles</span> let you create sets of customizations and quickly switch between them or share them with others.</p>
+                          <h1 class="text-white font-bold text-3xl font-poppins">Fully customizable</h1>
+                          <p class="text-blue-200 font-foont">Customize your VS Code UI and layout so that it fits your coding style.</p>
+                          <p class="text-blue-200 font-foont"> <span class="text-blue-400 font-bold cursor-pointer hover:underline">Color themes</span> let you modify the colors in VS Code's user interface to suit your preferences and work environment.</p>
+                          <p class="text-blue-200 font-foont"> <span class="text-blue-400 font-bold cursor-pointer hover:underline">Settings Sync</span> enables you to share your user settings across your VS Code instances with the Settings Sync feature.</p>
+                          <p class="text-blue-200 font-foont"><span class="text-blue-400 font-bold cursor-pointer hover:underline">Profiles</span> let you create sets of customizations and quickly switch between them or share them with others.</p>
                           
                         </div>
                         <img src="./imgi_27_swimlane-customized.png" alt="" class="lg:w-[650px] w-[500px]">
@@ -290,62 +292,64 @@
                        <!-- section 09 -->
                         <section class="md:flex justify-between gap-10 px-20 py-10">
                           <div class="flex flex-col gap-6 mt-20">
-                            <h1 class="text-white text-3xl font-bold">Code anywhere</h1>
-                            <p class="text-blue-300">Code wherever you're most productive, whether you're connected to the cloud, a remote repository, or in the browser with VS Code for the Web (vscode.dev).</p>
-                            <p class="text-blue-300"><span class="text-blue-500 font-bold">Built-in Source Control</span>  empowers you with Git support out-of-the-box. Many other source control providers are available through extensions.</p>
-                            <p class="text-blue-300"><span class="text-blue-500 font-bold">GitHub Codespaces</span> provides cloud-powered development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request.</p>
+                            <h1 class="text-white text-3xl font-bold font-poppins">Code anywhere</h1>
+                            <p class="text-blue-200 font-foont">Code wherever you're most productive, whether you're connected to the cloud, a remote repository, or in the browser with VS Code for the Web (vscode.dev).</p>
+                            <p class="text-blue-200 font-foont.
+                            "><span class="text-blue-400 font-bold cursor-pointer hover:underline">Built-in Source Control</span>  empowers you with Git support out-of-the-box. Many other source control providers are available through extensions.</p>
+                            <p class="text-blue-200 font-foont"><span class="text-blue-400 font-bold cursor-pointer hover:underline">GitHub Codespaces</span> provides cloud-powered development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request.</p>
                           </div>
                           <img src="./imgi_29_swimlane-anywhere.png" alt="" class="lg:w-[650px] w-[500px] md:mt-0 mt-5 ">
 
                         </section>
                         <!-- section10 -->
                          <section class="flex justify-center items-center flex flex-col gap-6">
-                          <h1 class="text-3xl text-white font-bold text-center">Code with rich features</h1>
-                          <p class="text-blue-200 text-center">There's a lot more to an editor. Whether it's using built-in features or <br> rich extensions, there's something for everyone.</p>
+                          <h1 class="text-3xl text-white font-bold text-center font-poppins">Code with rich features</h1>
+                          <p class="text-blue-200 text-center font-foont">There's a lot more to an editor. Whether it's using built-in features or <br> rich extensions, there's something for everyone.</p>
 
 
                          </section>
                          <!-- section 11 -->
                           <section class="flex lg:px-20 px-10 py-5 gap-10 flex flex-wrap  ">
-                            <div class="container bg-stone-800 border border-white flex flex-col gap-2 w-[300px] h-max px-5 py-3 rounded-md">
+                            <div class="container bg-stone-800  flex flex-col gap-2 w-[300px] h-max px-5 py-3 rounded-md">
                               <img src="./imgi_31_codicon-terminal.svg" alt="" class="h-[40px] -ml-28">
-                              <h1 class="text-white font-bold">Integrated terminal</h1>
-                              <p class="text-blue-200">Use your favorite shell whether it's zsh, pwsh,<br> or  git bash, all inside the editor.</p>
+                              <h1 class="text-white font-bold font-poppins">Integrated terminal</h1>
+                              <p class="text-blue-200 font-foont">Use your favorite shell whether it's zsh, pwsh,<br> or  git bash, all inside the editor.</p>
                             </div>
-                            <div class="container bg-stone-800 border border-white flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
+                            <div class="container bg-stone-800 flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
                               <img src="./imgi_32_codicon-debug.svg" alt="" class="h-[40px] -ml-28 ">
-                              <h1 class="text-white font-bold">Run code</h1>
-                              <p class="text-blue-200">Run and debug your code without <br> leaving your editor.</p>
+                              <h1 class="text-white font-bold font-poppins">Run code</h1>
+                              <p class="text-blue-200 font-foont">Run and debug your code without <br> leaving your editor.</p>
                             </div>
-                            <div class="container bg-stone-800 border border-white flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
+                            <div class="container bg-stone-800   flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
                               <img src="./imgi_33_codicon-version-control.svg" alt="" class="h-[40px] -ml-28 ">
-                              <h1 class="text-white font-bold">Version Control</h1>
-                              <p class="text-blue-200">Build-in support for git and many other <br> source control providers.</p>
+                              <h1 class="text-white font-bold font-poppins">Version Control</h1>
+                              <p class="text-blue-200 font-foont">Build-in support for git and many other <br> source control providers.</p>
                             </div>
-                            <div class="container bg-stone-800 border border-white flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
+                            <div class="container bg-stone-800  flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
                               <img src="./imgi_34_codicon-build-tasks.svg" alt="" class="h-[40px] -ml-28">
-                              <h1 class="text-white font-bold">Build tasks</h1>
-                              <p class="text-blue-200">Run tools and analyze their results <br> from within vscode.</p>
+                              <h1 class="text-white font-bold font-poppins">Build tasks</h1>
+                              <p class="text-blue-200 font-poppins">Run tools and analyze their results <br> from within vscode.</p>
                             </div>
-                            <div class="container bg-stone-800 border border-white flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
+                            <div class="container bg-stone-800 flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
                               <img src="./imgi_35_codicon-local-history.svg" alt="" class="h-[40px] -ml-28">
-                              <h1 class="text-white font-bold">Local histroy</h1>
-                              <p class="text-blue-200">Never lose your changes with <br> automatically tracked local histroy</p>
+                              <h1 class="text-white font-bold font.
+                              ">Local histroy</h1>
+                              <p class="text-blue-200 font-foont">Never lose your changes with <br> automatically tracked local histroy</p>
                             </div>
-                            <div class="container bg-stone-800 border border-white flex flex-col gap-2 w-[300px] px-5 py-3 rounded-md">
+                            <div class="container bg-stone-800  flex flex-col gap-2 w-[300px] px-5 py-3 rounded-md">
                               <img src="./imgi_36_codicon-themes.svg" alt="" class="h-[40px] -ml-28 ">
-                              <h1 class="text-white font-bold">Thems</h1>
-                              <p class="text-blue-200">Your theme is an extention of your <br>personality.Add some flair to <br> your editor add your touch</p>
+                              <h1 class="text-white font-bold font-poppins">Thems</h1>
+                              <p class="text-blue-200 font-foont">Your theme is an extention of your <br>personality.Add some flair to <br> your editor add your touch</p>
                             </div>
-                            <div class="container bg-stone-800 border border-white flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
+                            <div class="container bg-stone-800  flex flex-col gap-2 w-[300px]  px-5 py-3 rounded-md">
                               <img src="./imgi_37_codicon-accessibility.svg" alt="" class="h-[40px] -ml-28">
-                              <h1 class="text-white font-bold">Accesibility</h1>
-                              <p class="text-blue-200">Optimize experience for screen <br>readers,hidh contrast themes,and <br> keyboard-only navigation</p>
+                              <h1 class="text-white font-bold font-poppins">Accesibility</h1>
+                              <p class="text-blue-200 font-foont">Optimize experience for screen <br>readers,hidh contrast themes,and <br> keyboard-only navigation</p>
                             </div>
-                            <div class="container bg-stone-800 border border-white flex flex-col gap-2 w-[300px] px-5 py-3 rounded-md">
+                            <div class="container bg-stone-800  flex flex-col gap-2 w-[300px] px-5 py-3 rounded-md">
                               <img src="./imgi_38_codicon-web.svg" alt="" class="h-[40px] -ml-28 ">
-                              <h1 class="text-white font-bold">Web support</h1>
-                              <p class="text-blue-200">Whether you are on your phone <br>tablet,or desktop,you can access your <br> code from  any where</p>
+                              <h1 class="text-white font-bold font-poppins">Web support</h1>
+                              <p class="text-blue-100 font-foont">Whether you are on your phone <br>tablet,or desktop,you can access your <br> code from  any where</p>
                             </div>
 
                           </section>
@@ -369,13 +373,13 @@
                           </section>
                           <!-- section last-->
                            <section class="flex flex-col gap-5 px-20 py-5 text-white mb-40 ">
-                            <ul class="flex gap-6 flex flex-wrap ">
-                              <li >support</li>
-                              <li> Privacy</li>
-                              <li> Terms of Use</li>
-                              <li> License</li>
+                            <ul class="flex gap-6 flex flex-wrap font-poppins ">
+                              <li class="cursor-pointer hover:underline" >support</li>
+                              <li class="cursor-pointer hover:underline"> Privacy</li>
+                              <li class="cursor-pointer hover:underline"> Terms of Use</li>
+                              <li class="cursor-pointer hover:underline"> License</li>
                             </ul>
-                            <ul class="flex gap-6">
+                            <ul class="flex gap-6 font-poppins">
                               <li class="flex gap-2"><img src="./imgi_89_default.svg" alt="" class="w-[30px]"><span>Your privacy choices</span></li>
                               <li> Consumer Health Privacy</li>
                             </ul>
