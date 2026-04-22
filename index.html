@@ -33,7 +33,7 @@
     </script>
  
     <body>
-        <main class="bg-stone-900 min-h-screen overflow-hidden ">
+        <main class="bg-stone-900 min-h-screen  overflow-hidden ">
             <nav class=" bg-black text-white px-10 py-3 flex justify-between fixed w-full z-50 ">
                 <ul class="flex gap-5 py-2 text-xl font-poppins ">
                    <button class="bg-black px-2  flex gap-2 text-2xl font-bold"><img src="./imgi_90_default.png" alt="" class="h-[30px]">Visual Studio Code</button>
@@ -64,29 +64,60 @@
                
             </nav>
             <!-- section 1 -->
-             <section class="container bg-blue-500 flex justify-center items-center mt-10 flex flex-wrap z-20">
+             <section class=" container bg-blue-500 w-full flex justify-center items-center mt-10 flex flex-wrap   ">
                 <h1 class="font-poppins">Explore Agentic Development</h1>
                 <p class="hover:underline text font-foont">-Join a GitHub Copilot Dev Day near you!</p> 
              </section>
              <!-- section 02 -->
-              <section class="flex justify-center items-center flex flex-col  mt-10 gap-6 font-poppins">
+              <section class=" flex justify-center items-center flex flex-col  mt-10 gap-6 font-poppins">
                 <h1 class="font-bold lg:text-6xl md:text-3xl text-2xl text-white">The open source AI code editor </h1>
                 <h1 class="text-blue-200 lg:text-3xl md:text-2xl text-xl">Your home for multi-agent development </h1>
                 </section>
                 <!-- section 2 -->
                 <section class="flex justify-center mt-10 ">
-                    <div class="container bg-stone-800 flex flex-col py-3 w-max  px-10 gap-2 rounded-md items-center ">
+                    <div class="hidden md:flex container bg-stone-800 flex flex-col py-3 w-max  px-10 gap-2 rounded-md items-center ">
                     <button class="bg-white px-2 py-2 flex items-center gap-2   rounded-md text-xl font-bold w-max"><img src="./imgi_50_default.svg" alt="">Download for windows</button>
                     
                     <p class="text-white font-foont">Web, Insiders edition, or other platforms</p>
                     <p class="text-white font-foont">By using VS Code, you agree to its license and privacy statement.</p>
                     </div>
+                       
                 </section>
-                <!-- section 03 -->
-                 <section class="flex justify-center items-center mt-40  ">
-                  <div class="container bg-[url(./imgi_91_hero-background.webp)] relative lg:w-[900px] w-[700px] lg:h-[500px] md:h-[350px] h-[300px]">
-                    <img src="./imgi_28_swimlane-customized-light.png" alt="" class="lg:w-[800px] w-[600px] absolute bottom-5 lg:left-10 md:left-10 md:top-3 left-2 z-10">
+                <section class="flex justify-center">
+                  <div class="md:hidden container bg-stone-800  flex flex-col py-3 w-max px-10 gap-2 rounded-md items-center  ">
+                    <button class="bg-white w-max flex rounded-md px-2 items-center font-bold"><img src="./imgi_51_default.svg" alt="" class="w-[50px]">Download for Linux </button>
+                    <button class="bg-white w-max flex rounded-md px-2 items-center font-bold"><img src="./imgi_51_default.svg" alt="" class="w-[50px]">Download for Linux </button>
+
+                    <p class="text-white font-foont text-sm cursor-pointer hover:underline">Web, Insiders edition, or other platforms</p>
+                    <p class="text-white font-foont text-sm text-center cursor-pointer hover:underline">By using VS Code, you agree to its license and privacy statement.</p>
+
+
                   </div>
+                  
+
+                </section>
+
+
+
+                 
+                <!-- section 03 -->
+                 <section class=" mt-40  flex justify-center items-center">
+                  <div class="container relative md:h-[550px] h-[350px] max-w-[750px] mx-auto">
+                    <img
+                     class="absolute h-full"
+                     src="./imgi_91_hero-background.webp" alt="">
+                    <div class="flex justify-center items-center h-full max-w-[full] mx-auto px-2">
+                      <img 
+                       class="absolute w-full px-10"
+                      src="./imgi_28_swimlane-customized-light.png" alt="">
+
+                    </div>
+
+
+                  </div>
+
+
+                  
 
                   
                  </section>
@@ -99,10 +130,19 @@
                       <p class="text-blue-400 font-foont cursor-pointer hover:underline">Get started with agents</p>
                     </div>
                     
-                       <div class="container bg-[url(/imgi_91_hero-background.webp)] relative xl:w-[750px]  md:h-[400px]   h-[250px] rounded-md border-4 border-blue-600">
-                        <img src="./imgi_28_swimlane-customized-light.png" alt="" class="xl:w-[600px] lg:w-[550px] md:w-[500px] w-min absolute bottom-5 xl:left-10 lg:left-6 md:left-10 z-20  ">
+                       <div class="container relative md:h-[550px] h-[350px] max-w-[750px] mx-auto">
+                    <img
+                     class="absolute h-full"
+                     src="./imgi_91_hero-background.webp" alt="">
+                    <div class="flex justify-center items-center h-full max-w-[full] mx-auto px-2">
+                      <img 
+                       class="absolute w-full px-10"
+                      src="./imgi_30_swimlane-anywhere-light.png" alt="">
 
-                       </div>
+                    </div>
+
+
+                  </div>
                   
 
                     
@@ -136,7 +176,7 @@
                    <div class="px-20">
 
                    <section class="container bg-[url('./imgi_92_copilot-free-banner-bg-dark.webp')] mt-10 rounded-md">
-                      <div class="flex justify-between text-white py-5 lg:px-10 px-5">
+                      <div class="md:flex justify-between text-white py-5 lg:px-10 px-5">
                         <h1 class=" lg:text-3xl text-xl font-bold font-poppins">Start building with AI agents for free</h1>
                         <span class="flex flex-col gap-5">
                            <p class="font-foont" >No trial. No credit card required. Just your GitHub account.</p>
@@ -155,10 +195,19 @@
                         <p class="text-blue-400 font-foont cursor-pointer hover:underline">Get started with VS Code</p>
                       </div>
                       
-                       <div class="container bg-[url(/imgi_91_hero-background.webp)] relative xl:w-[750px]  md:h-[400px]   h-[250px] rounded-md border-4 border-blue-600  ">
-                        <img src="./imgi_28_swimlane-customized-light.png" alt="" class="xl:w-[600px] lg:w-[550px] md:w-[600px] w-min absolute bottom-5 xl:left-10 lg:left-6 md:left-10 z-20  ">
+                       <div class="container relative md:h-[550px] h-[350px] max-w-[750px] mx-auto">
+                    <img
+                     class="absolute h-full"
+                     src="./imgi_91_hero-background.webp" alt="">
+                    <div class="flex justify-center items-center h-full max-w-[full] mx-auto px-2">
+                      <img 
+                       class="absolute w-full px-10"
+                      src="./imgi_29_swimlane-anywhere.png" alt="">
 
-                       </div>
+                    </div>
+
+
+                  </div>
                  
                     </section>
                     <!-- section 06 -->
